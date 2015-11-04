@@ -66,3 +66,19 @@ nav {
   @extend .message;
   border-color: yellow;
 }
+
+.center-stuff {
+  text-align: center;
+}
+
+article {
+  float: left;
+  width: 600px / 960px * 100%;
+  @extend .center-stuff;
+}
+
+aside {
+  float: right;
+  width: 300px / 960px * 100%;
+  @extend .center-stuff;
+}
