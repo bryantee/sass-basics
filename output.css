@@ -2,4 +2,20 @@ body {
   font: 100% Helvetica, sans-serif;
   color: #333; }
 
+.content {
+  max-width: 65%;
+  margin: 0 auto;
+  text-align: center; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
 /*# sourceMappingURL=output.css.map */

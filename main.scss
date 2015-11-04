@@ -1,7 +1,32 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
+$content-width: 65%;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+}
+
+.content {
+  max-width: $content-width;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
 }
