@@ -25,4 +25,11 @@ nav a {
   padding: 6px 12px;
   text-decoration: none; }
 
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid grey; }
+
 /*# sourceMappingURL=output.css.map */
