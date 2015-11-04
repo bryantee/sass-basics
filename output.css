@@ -32,4 +32,18 @@ nav a {
   border-radius: 10px;
   border: 1px solid grey; }
 
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warning {
+  border-color: yellow; }
+
 /*# sourceMappingURL=output.css.map */

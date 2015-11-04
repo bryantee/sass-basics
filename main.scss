@@ -1,5 +1,6 @@
 @import 'reset';
 
+// some variables to use
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 $content-width: 65%;
@@ -43,4 +44,25 @@ nav {
 .box {
   @include border-radius(10px);
   border: 1px solid grey;
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+.warning {
+  @extend .message;
+  border-color: yellow;
 }
