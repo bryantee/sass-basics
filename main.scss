@@ -3,7 +3,8 @@
 // some variables to use
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
-$content-width: 65%;
+$content-width: 75%;
+$link-colors: green;
 
 body {
   font: 100% $font-stack;
@@ -31,6 +32,7 @@ nav {
     display: block;
     padding: 6px 12px;
     text-decoration: none;
+    color: $link-colors;
   }
 }
 
@@ -50,6 +52,7 @@ nav {
   border: 1px solid #ccc;
   padding: 10px;
   color: #333;
+  @include border-radius(10px);
 }
 
 .success {
